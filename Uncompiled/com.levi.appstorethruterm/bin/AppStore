@@ -1,0 +1,24 @@
+#!/bin/sh
+#run this to open AppStore from terminal, at #any time.
+#this requires EricaUtilities
+
+#Code for EricaUtilies check taken from #metadatatool on insanelyi repo, thanks!
+if [ ! -e /usr/bin/plutil ] ; then
+        echo "Installing erica utilities now"
+        apt-get install -y com.ericasadun.utilities 
+        echo "Erica Utilities now installed, exiting."
+        exit
+fi
+
+case "$1" in
+        *)
+               echo "Opening AppStore"
+               openURL itms-apps:// ;;
+
+         --help)
+               echo "Usage:
+--help       Dispays this Usage
+appstore --------\
+AppStore ------> either opens AppStore"
+
+esac 

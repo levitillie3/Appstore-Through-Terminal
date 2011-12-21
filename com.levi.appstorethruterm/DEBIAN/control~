@@ -1,12 +1,12 @@
 Package: com.levi.appstorethruterm
-Name: AppStore Through Terminal
-Version: 2.0
+Name: AppStorethruTerm
+Version: 1.0
 Architecture: iphoneos-arm
 Depiction: http://repo.insanelyi.com/depiction.php?package=appstorethruterm
 Description: Open AppStore through terminal
 Depends: com.ericasadun.utilities
 Homepage: http://getagripon.com/tillie
-Author: wlevit3 <levi.tillie3@gmail.com>
+Author: wlevit3 
 Sponsor: Levi Tillie <http://getagripon.com/tillie>
 Section: lScripts
 Maintainer: Levi Tillie <levi.tillie3@gmail.com>
